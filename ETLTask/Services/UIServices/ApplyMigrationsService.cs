@@ -10,7 +10,7 @@ public class ApplyMigrationsService
 	private readonly Logger _logger;
 	public ApplyMigrationsService(IMigrationService migrationService)
 	{
-		_migrationService = migrationService;
+		_migrationService = migrationService ?? throw new ArgumentNullException(nameof(migrationService));
 		_logger = LogManager.GetCurrentClassLogger();
 	}
 	public async Task RunAsync()

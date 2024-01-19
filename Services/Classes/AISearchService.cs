@@ -44,14 +44,7 @@ public class AISearchService : IAISearchService
 	{
 		public string ODataContext { get; set; }
 		public int ODataCount { get; set; }
-		public List<Category> Value { get; set; }
+		public List<Dictionary<string, string>> Value { get; set; }
 		public string ODataNextLink { get; set; }
-	}
-
-	private class Category
-	{
-		public double SearchScore { get; set; }
-		public string CategoryId { get; set; }
-		public string CategoryName { get; set; }
 	}
 }

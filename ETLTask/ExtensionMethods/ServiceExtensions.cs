@@ -31,6 +31,7 @@ public static class ServiceExtensions
 		services.AddSingleton<ApplyMigrationsService>();
 		services.AddSingleton<DataFactoryOptionsService>();
 		services.AddSingleton<SearchProductsService>();
+		services.AddSingleton<InsertTestRecordsService>();
 		return services;
 	}
 }

@@ -102,7 +102,6 @@ public static class CommonsService
 			table.AddRow(wrappedRows.ToArray());
 		}
 		table.Write();
-
 		Console.WriteLine($" {dashes}");
 	}
 
