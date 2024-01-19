@@ -29,7 +29,7 @@ Once the KeyVault is configured by the code, the user is prompted with a menu wi
 
 ![image (19)](https://github.com/TurrabH/AzureETLTask/assets/151545901/ebcb50b8-d020-4db8-a8ff-6b9d90fcec7e)
 
-Running the project for the first time requires the user to run the option 3 (Apply Migrations), in order to set up all the tables and other dependencies on the cloud correctly.
+Running the project for the first time requires the user to run the option no. 3 (Apply Migrations), in order to set up all the tables and other dependencies on the cloud correctly.
 Afterwards, the user can go through other options like datafactory options or search products as per his/her convenience.
 
 ![image (20)](https://github.com/TurrabH/AzureETLTask/assets/151545901/70586c30-44e3-4c20-b275-a4b278b8723f)
